@@ -1,0 +1,19 @@
+<theme>
+  <formatVersion>4</formatVersion>
+  <include>./../pg-breath.xml</include>
+
+  <view name="system basic detailed video">
+  </view>
+
+  <view name="system">
+  </view>
+
+  <view name="basic">
+  </view>
+
+  <view name="detailed">
+  </view>
+
+  <view name="video">
+  </view>
+</theme>

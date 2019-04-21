@@ -1,0 +1,108 @@
+<theme>
+  <formatVersion>4</formatVersion>
+
+  <view name="system, basic, detailed, video, grid">
+    <image name="logo">
+      <path>./_inc/images/logo_${system.name}.png</path>
+    </image>
+
+    <image name="background" extra="true">
+      <path>./_inc/images/background.jpg</path>
+    </image>
+
+    <image name="overlay" extra="true">
+      <path>./_inc/images/overlay_${system.name}.png</path>
+    </image>
+  </view>
+
+  <view name="basic, detailed, video, grid">
+    <image name="logo">
+      <origin>0.5 0.5</origin>
+      <pos>0.2279 0.09</pos>
+    </image>
+
+    <image name="help_list" extra="true">
+      <path>./_inc/images/help-list.png</path>
+      <origin>1 1</origin>
+      <pos>1 1</pos>
+    </image>
+  </view>
+
+  <view name="system">
+    <image name="system_help" extra="true">
+      <path>./_inc/images/help-system.png</path>
+      <origin>1 1</origin>
+      <pos>1 1</pos>
+    </image>
+  </view>
+  
+  <view name="basic detailed video">
+    <image name="list-bg" extra="true">
+      <path>./_inc/images/list-bg.png</path>
+      <origin>0 1</origin>
+      <pos>0.0365 0.9352</pos>
+    </image>
+
+    <textlist name="gamelist">
+      <alignment>left</alignment>
+      <horizontalMargin>0.0266</horizontalMargin>
+      <!--<selectorColor>00000080</selectorColor>-->
+      <selectedColor>FFFFFF</selectedColor>
+      <primaryColor>000000</primaryColor>
+      <secondaryColor>888888</secondaryColor>
+      <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+      <pos>0.0182 0.1880</pos>
+      <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
+      <selectorColor>ffffff</selectorColor>
+      <selectorImagePath>./_inc/images/select-bar.png</selectorImagePath>
+      <selectorHeight>0.0407</selectorHeight>
+      <selectorOffsetY>-0.0046</selectorOffsetY>
+      <size>0.4203 0.7380</size>
+      <fontSize>0.02</fontSize>
+    </textlist>
+  </view>
+  
+  <view name="detailed">
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.75 0.5</pos>
+      <maxSize>0.33 0.58</maxSize>
+    </image>
+
+    <rating name="md_rating">
+      <pos>0.5 0.5</pos>
+      <size>0.0182 0.0324</size>
+      <filledPath>./_inc/images/rating-star-full.png</filledPath>
+      <unfilledPath>./_inc/images/rating-star-empty.png</unfilledPath>
+    </rating>
+
+
+
+    <!-- Labels and values -->
+    <text name="md_lbl_rating">
+      <color>48474D</color>
+      <pos>0.5 0.8</pos>
+    </text>
+    <!--<text name="md_rating">
+      <color>48474D</color>
+      <pos>0.4 0.8</pos>
+    </text>-->
+
+    <text name="md_lbl_releasedate">
+      <color>48474D</color>
+      <pos>0.5 0.85</pos>
+    </text>
+    <datetime name="md_releasedate">
+      <color>48474D</color>
+      <pos>0.5 0.85</pos>
+    </datetime>
+
+  </view>
+  
+  <view name="video">
+  </view>
+
+  <view name="grid">
+  </view>
+</theme>
+
