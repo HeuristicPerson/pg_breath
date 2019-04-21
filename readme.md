@@ -10,5 +10,5 @@ TO-DO
 Credits
 -------
 
-TO-DO
-
+  - Control icons: [https://thoseawesomeguys.com/prompts/](Xelu FREE keyboard & controller prompts pack)
+  - Font: [https://fonts.google.com/specimen/Roboto?selection.family=Roboto](Roboto)
