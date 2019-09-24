@@ -9,7 +9,7 @@ TO-DO
 Screenshots
 -----------
 
-![Main menu](screenshots/menu.png "Main menu")
+![Main menu](screenshots/main.png "Main menu")
 ![Playstation list](screenshots/ps1.png "Playstation list")
 ![Megadrive list](screenshots/mdr-crt.png "Megadrive list")
 ![Super Nintendo list](screenshots/snt-crt.png "Super Nintendo list")
