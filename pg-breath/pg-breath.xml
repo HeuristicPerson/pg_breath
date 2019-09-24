@@ -70,13 +70,23 @@
     </image>
 
     <rating name="md_rating">
-      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.4</pos>
       <size>0.0182 0.0324</size>
       <filledPath>./_inc/images/rating-star-full.png</filledPath>
       <unfilledPath>./_inc/images/rating-star-empty.png</unfilledPath>
     </rating>
-
-
+    
+    <text name="md_description">
+      <pos>0.50 0.50</pos>
+      <size>0.40 0.2</size>
+      <color>000000</color>
+      <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <alignment>left</alignment>
+      <forceUppercase>0</forceUppercase>
+      <lineSpacing>1.6</lineSpacing>
+    </text>
 
     <!-- Labels and values -->
     <text name="md_lbl_rating">
@@ -95,6 +105,7 @@
     <datetime name="md_releasedate">
       <color>48474D</color>
       <pos>0.5 0.85</pos>
+      <format>%Y</format>
     </datetime>
 
   </view>
