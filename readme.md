@@ -4,7 +4,19 @@ EmulationStation Theme - pg-breath 0.1
 Intro
 -----
 
-TO-DO
+A clean and minimalistic theme for EmulationStation to be used in large screens.
+I would say that 42" is the minimum. It's not 100% finished but you can try it.
+Take into consideration that system names are a bit different from other themes
+around.
+
+  - gba-crt - Game Boy Advance (cartridges)
+  - gbc - Game Boy Color
+  - gbo - Game Boy
+  - mdr-crt - Megadrive/Genesis (cartridges)
+  - nes-crt - NES (cartridges)
+  - ps1 - Playstation (1)
+  - snt-crt - Super Nintendo (cartridges)
+
 
 Screenshots
 -----------
