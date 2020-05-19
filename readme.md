@@ -24,11 +24,13 @@ around.
 Screenshots
 -----------
 
-![Main menu](screenshots/main.png "Main menu")
-![Playstation list](screenshots/ps1.png "Playstation list")
-![Megadrive list](screenshots/mdr-crt.png "Megadrive list")
-![Super Nintendo list](screenshots/snt-crt.png "Super Nintendo list")
-![Game Boy Advance list](screenshots/gba-crt.png "Game Boy Advance list")
+You can find the images at full resolution in `screenshots` dir.
+
+![Main menu](screenshots/main_small.png "Main menu")
+![Playstation list](screenshots/ps1_small.png "Playstation list")
+![Megadrive list](screenshots/mdr-crt_small.png "Megadrive list")
+![Super Nintendo list](screenshots/snt-crt_small.png "Super Nintendo list")
+![Game Boy Advance list](screenshots/gba-crt_small.png "Game Boy Advance list")
 
 
 Credits
