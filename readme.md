@@ -12,9 +12,12 @@ around.
   - gba-crt - Game Boy Advance (cartridges)
   - gbc - Game Boy Color
   - gbo - Game Boy
+  - lnx - Atari Lynx
   - mdr-crt - Megadrive/Genesis (cartridges)
   - nes-crt - NES (cartridges)
   - ps1 - Playstation (1)
+  - sgg - Sega Game Gear
+  - sms - Sega Master System
   - snt-crt - Super Nintendo (cartridges)
 
 
