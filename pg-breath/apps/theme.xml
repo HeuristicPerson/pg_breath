@@ -1,0 +1,18 @@
+<theme>
+  <formatVersion>4</formatVersion>
+  <include>./../pg-breath.xml</include>
+  
+  <view name="system">
+    <!--<image name="background" extra="true">
+      <path>./background.png</path>
+    </image>-->
+
+    <!--<image name="logo">
+      <path>./system.png</path>
+    </image>-->
+  </view>
+  
+  <view name="basic"></view>
+  <view name="detailed"></view>
+  <view name="video"></view>
+</theme>

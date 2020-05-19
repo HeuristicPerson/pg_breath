@@ -34,6 +34,12 @@
       <origin>1 1</origin>
       <pos>1 1</pos>
     </image>
+
+    <image name="band" extra="true">
+      <origin>0.5 0.5</origin>
+      <path>./_inc/images/band.png</path>    
+      <pos>0.5 0.5</pos>
+    </image>
   </view>
   
   <view name="basic detailed video">
@@ -63,21 +69,37 @@
   </view>
   
   <view name="detailed">
+    <!-- Game image -->
     <image name="md_image">
       <origin>0.5 0.5</origin>
-      <pos>0.75 0.5</pos>
-      <maxSize>0.33 0.58</maxSize>
+      <pos>0.7073 0.5685</pos>
+      <maxSize>0.5854 0.8056</maxSize>
     </image>
 
+    <!-- Rating without label -->
+    <!-- silly "bug", you set the position of the FIRST star only -->
     <rating name="md_rating">
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.4</pos>
-      <size>0.0182 0.0324</size>
+      <origin>0.0 0.0</origin>
+      <pos>0.6628 0.1870</pos>
+      <size>0.0177 0.0315</size>
       <filledPath>./_inc/images/rating-star-full.png</filledPath>
       <unfilledPath>./_inc/images/rating-star-empty.png</unfilledPath>
     </rating>
-    
-    <text name="md_description">
+
+    <!-- Release year without label -->
+    <datetime name="md_releasedate">
+      <alignment>center</alignment>
+      <!--<color>48474D80</color>-->
+      <color>00000040</color>
+      <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.7070 0.24</pos>
+      <format>%Y</format>
+    </datetime>
+
+    <!-- Description -->    
+    <!--<text name="md_description">
       <pos>0.50 0.50</pos>
       <size>0.40 0.2</size>
       <color>000000</color>
@@ -86,27 +108,7 @@
       <alignment>left</alignment>
       <forceUppercase>0</forceUppercase>
       <lineSpacing>1.6</lineSpacing>
-    </text>
-
-    <!-- Labels and values -->
-    <text name="md_lbl_rating">
-      <color>48474D</color>
-      <pos>0.5 0.8</pos>
-    </text>
-    <!--<text name="md_rating">
-      <color>48474D</color>
-      <pos>0.4 0.8</pos>
     </text>-->
-
-    <text name="md_lbl_releasedate">
-      <color>48474D</color>
-      <pos>0.5 0.85</pos>
-    </text>
-    <datetime name="md_releasedate">
-      <color>48474D</color>
-      <pos>0.5 0.85</pos>
-      <format>%Y</format>
-    </datetime>
 
   </view>
   
@@ -115,5 +117,28 @@
 
   <view name="grid">
   </view>
+
+  <feature supported="carousel">
+    <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.5</pos>    <!-- Currently only y value is used -->
+        <size>1.0 0.2</size> <!-- currently only height value is used -->
+        <color>ffffff00</color>
+        <logoScale>2</logoScale>
+        <logoSize>0.125 0.155</logoSize>
+        <maxLogoCount>5</maxLogoCount>
+      </carousel>
+
+      <text name="systemInfo">
+        <backgroundColor>00000000</backgroundColor>
+        <color>00000080</color>
+        <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+        <fontSize>0.020</fontSize>
+      </text>
+    </view>
+  </feature>
+
 </theme>
 
