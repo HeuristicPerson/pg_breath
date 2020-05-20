@@ -27,10 +27,11 @@ Screenshots
 You can find the images at full resolution in `screenshots` dir.
 
 ![Main menu](screenshots/main_small.png "Main menu")
-![Playstation list](screenshots/ps1_small.png "Playstation list")
-![Megadrive list](screenshots/mdr-crt_small.png "Megadrive list")
-![Super Nintendo list](screenshots/snt-crt_small.png "Super Nintendo list")
 ![Game Boy Advance list](screenshots/gba-crt_small.png "Game Boy Advance list")
+![Lynx list](screenshots/lnx_small.png "Lynx list")
+![Megadrive list](screenshots/mdr-crt_small.png "Megadrive list")
+![Playstation list](screenshots/ps1_small.png "Playstation list")
+![Super Nintendo list](screenshots/snt-crt_small.png "Super Nintendo list")
 
 
 Credits
