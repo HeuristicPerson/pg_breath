@@ -41,10 +41,11 @@ You can find the images at full resolution in `screenshots` dir.
 Credits
 -------
 
+  - Console photos: [Evan Amos](https://commons.wikimedia.org/wiki/User:Evan-Amos)
   - Control icons: [Xelu FREE keyboard & controller prompts pack](https://thoseawesomeguys.com/prompts/)
   - Font: [Roboto](https://fonts.google.com/specimen/Roboto?selection.family=Roboto)
   - Sounds: [Created by David McKee (ViRiX) soundcloud.com/virix](https://opengameart.org/content/ui-sound-effects-pack)
 
-https://opengameart.org/content/zippo-click-sound
-https://opengameart.org/content/menu-rollover
-https://opengameart.org/content/click-ui-menu-sfx-yesnoselect
+  - https://opengameart.org/content/zippo-click-sound
+  - https://opengameart.org/content/menu-rollover
+  - https://opengameart.org/content/click-ui-menu-sfx-yesnoselect
