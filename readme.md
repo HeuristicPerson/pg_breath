@@ -27,8 +27,12 @@ Screenshots
 You can find the images at full resolution in `screenshots` dir.
 
 ![Main menu](screenshots/main_small.png "Main menu")
+![Game Boy list](screenshots/gbo_small.png "Game Boy list")
 ![Game Boy Advance list](screenshots/gba-crt_small.png "Game Boy Advance list")
+![Game Boy Color list](screenshots/gbc_small.png "Game Boy Color list")
+![Game Gear list](screenshots/sgg_small.png "Game Gear list")
 ![Lynx list](screenshots/lnx_small.png "Lynx list")
+![Master System list](screenshots/sms_small.png "Master System list")
 ![Megadrive list](screenshots/mdr-crt_small.png "Megadrive list")
 ![Playstation list](screenshots/ps1_small.png "Playstation list")
 ![Super Nintendo list](screenshots/snt-crt_small.png "Super Nintendo list")
